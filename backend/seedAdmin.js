@@ -19,8 +19,8 @@ const seedAdmin = async () => {
 
     const admin = new User({
       name: process.env.ADMIN_NAME || 'Admin',
-      email: process.env.ADMIN_EMAIL || 'admin@alumnihub.com',
-      password: process.env.ADMIN_PASSWORD || 'Admin@1234',
+      email: process.env.ADMIN_EMAIL || 'host@alumnihub.com',
+      password: process.env.ADMIN_PASSWORD || 'admin@1607',
       role: 'admin',
       isApproved: true
     });
